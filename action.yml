@@ -1,0 +1,11 @@
+name: test action
+description: test
+author: sarisia
+
+runs:
+  using: composite
+  steps:
+    - name: echo
+      shell: bash
+      run: |
+        echo "content 1"

@@ -1,0 +1,8 @@
+on:
+  repository_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kirchen-bell/sha-tag-action-test@2ff898704fa500bb2c96ed17a039379478675f7d
